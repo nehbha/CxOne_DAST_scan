@@ -47,7 +47,7 @@ jobs:
             #environment_id: "e64ac486-f2e3-486e-8757-fece216af179"
             # canary
             base_url: "https://deu.ast.checkmarx.net"
-            environment_id: "124fdb23-fe8c-4371-9dae-bd8c97df0b14"
+            environment_id: "1ba3a6d9-1e75-49f0-ac6a-501ba4022923"
             fail_on: ""
             verbose: true
             output: ${{ github.workspace }}/output_fold #./output
