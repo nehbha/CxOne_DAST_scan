@@ -35,9 +35,9 @@ jobs:
         uses: Checkmarx/dast-github-action@v1.0.6
         env:
           # prod
-          # CX_APIKEY: ${{ secrets.CX_APIKEY }}
+          CX_APIKEY: ${{ secrets.CX_APIKEY }}
           # canary: 
-          CX_APIKEY: ${{ secrets.CANARY_API_KEY }}
+          #CX_APIKEY: ${{ secrets.CANARY_API_KEY }}
         with:
             command: web
             config: './gin_juice.yaml'
